@@ -52,9 +52,9 @@ sample code bearing this copyright.
 #define MQTT_h
 
 #include "application.h"
-//#include "spark_wiring_string.h"
-//#include "spark_wiring_tcpclient.h"
-//#include "spark_wiring_usbserial.h"
+#include "spark_wiring_string.h"
+#include "spark_wiring_tcpclient.h"
+#include "spark_wiring_usbserial.h"
 
 // MQTT_MAX_PACKET_SIZE : Maximum packet size
 #define MQTT_MAX_PACKET_SIZE 128
